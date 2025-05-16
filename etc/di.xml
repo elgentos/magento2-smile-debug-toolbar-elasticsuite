@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Automatically set the profiler section in app/etc/env.php -->
+    <type name="Smile\ElasticsuiteCore\Client\Client">
+        <plugin name="smile-elasticsuite-core-client-plugin" type="Elgentos\SmileDebugBarElasticsuite\Plugin\ElasticsuitePlugin" sortOrder="1" disabled="false"/>
+    </type>
+
+    <!-- Block factories -->
+    <type name="Smile\DebugToolbar\Observer\AddZones">
+        <arguments>
+            <argument name="blockFactories" xsi:type="array">
+                <item name="search" xsi:type="object" sortO rder="100">Elgentos\SmileDebugBarElasticsuite\Block\Zone\SearchFactory</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
