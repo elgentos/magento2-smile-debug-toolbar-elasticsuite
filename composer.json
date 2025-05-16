@@ -1,6 +1,9 @@
 {
     "name": "elgentos/magento2-smile-debug-bar-elasticsuite",
     "autoload": {
+        "files": [
+            "registration.php"
+        ],
         "psr-4": {
             "Elgentos\\SmileDebugBarElasticsuite\\": "src/"
         }
