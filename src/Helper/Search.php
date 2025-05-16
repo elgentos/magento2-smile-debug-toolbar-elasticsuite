@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Elgentos\SmileDebugBarElasticsuite\Helper;
+namespace Elgentos\SmileDebugToolbarElasticsuite\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 

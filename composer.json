@@ -1,11 +1,11 @@
 {
-    "name": "elgentos/magento2-smile-debug-bar-elasticsuite",
+    "name": "elgentos/magento2-smile-debug-toolbar-elasticsuite",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Elgentos\\SmileDebugBarElasticsuite\\": "src/"
+            "Elgentos\\SmileDebugToolbarElasticsuite\\": "src/"
         }
     },
     "authors": [

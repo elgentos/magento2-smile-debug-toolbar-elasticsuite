@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Elgentos\SmileDebugBarElasticsuite\Block\Zone;
+namespace Elgentos\SmileDebugToolbarElasticsuite\Block\Zone;
 
 use Magento\Framework\View\Element\Template\Context;
 use Smile\DebugToolbar\Block\Zone\AbstractZone;
 use Smile\DebugToolbar\Formatter\FormatterFactory;
-use Elgentos\SmileDebugBarElasticsuite\Helper\Search as SearchHelper;
+use Elgentos\SmileDebugToolbarElasticsuite\Helper\Search as SearchHelper;
 use Smile\DebugToolbar\Helper\Data as DataHelper;
 
 /**

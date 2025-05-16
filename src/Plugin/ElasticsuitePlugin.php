@@ -7,9 +7,9 @@
 
 declare(strict_types=1);
 
-namespace Elgentos\SmileDebugBarElasticsuite\Plugin;
+namespace Elgentos\SmileDebugToolbarElasticsuite\Plugin;
 
-use Elgentos\SmileDebugBarElasticsuite\Helper\Search as SearchHelper;
+use Elgentos\SmileDebugToolbarElasticsuite\Helper\Search as SearchHelper;
 use Smile\ElasticsuiteCore\Client\Client;
 
 class ElasticsuitePlugin
