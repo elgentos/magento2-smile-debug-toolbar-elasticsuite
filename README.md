@@ -1,4 +1,4 @@
-# Elgentos Smile Debug Bar Elasticsuite
+# Elgentos Smile Debug Bar extension for Elasticsuite
 
 This module provides a debug bar for Elasticsuite in Magento 2.
 
@@ -9,7 +9,7 @@ To install this module, run the following command in your terminal:
 composer require elgentos/magento2-smile-debug-bar-elasticsuite
 ```
 Then, enable the module:
-```bashgit push -u origin
+```bash
 bin/magento module:enable Elgentos_SmileDebugBarElasticsuite
 ```
 And finally, run the upgrade command:
@@ -18,7 +18,7 @@ bin/magento setup:upgrade
 ```
 ## Usage
 
-This module will automatically add a debug bar to your Magento 2 store. You can use this debug bar to inspect Elasticsuite queries and other relevant information.
+This module will add a search tab to the Smile Debug Bar in your Magento 2 store. You can use this tab to inspect Elasticsuite queries and other relevant information.
 
 ## Contributing
 
