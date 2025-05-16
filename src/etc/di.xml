@@ -9,7 +9,7 @@
     <type name="Smile\DebugToolbar\Observer\AddZones">
         <arguments>
             <argument name="blockFactories" xsi:type="array">
-                <item name="search" xsi:type="object" sortO rder="100">Elgentos\SmileDebugBarElasticsuite\Block\Zone\SearchFactory</item>
+                <item name="search" xsi:type="object" sortOrder="100">Elgentos\SmileDebugBarElasticsuite\Block\Zone\SearchFactory</item>
             </argument>
         </arguments>
     </type>
