@@ -58,4 +58,12 @@ class Search extends AbstractZone
 
         return $searchSection;
     }
+
+    protected function displaySectionValue(string $name, mixed $value): string
+    {
+        [$class, $value] = $this->getClassAndValue($value);
+        $uid = uniqid();
+
+        return "    <tr><th class=\"align-top\" for=\"$uid\" onclick=\"smileToggle('$uid')\">$name</th><td id=\"smile-field-$uid\" class=\"field-cover $class\">$value</td></tr>\n";
+    }
 }
