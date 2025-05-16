@@ -12,6 +12,6 @@
         }
     ],
     "require": {
-        "smile/module-debug-toolbar": "dev-main"
+        "smile/module-debug-toolbar": "*"
     }
 }
