@@ -1,0 +1,17 @@
+{
+    "name": "elgentos/magento2-smile-debug-bar-elasticsuite",
+    "autoload": {
+        "psr-4": {
+            "Elgentos\\SmileDebugBarElasticsuite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerke Combee",
+            "email": "jerke@elgentos.nl"
+        }
+    ],
+    "require": {
+        "smile/module-debug-toolbar": "dev-main"
+    }
+}
