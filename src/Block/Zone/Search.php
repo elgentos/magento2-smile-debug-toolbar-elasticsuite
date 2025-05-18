@@ -23,7 +23,7 @@ class Search extends AbstractZone
         array $data = []
     ) {
         parent::__construct($context, $dataHelper, $formatterFactory, $data);
-        $this->setTemplate('Elgentos_SmileDebugBarElasticsuite::zone/search.phtml');
+        $this->setTemplate('Elgentos_SmileDebugToolbarElasticsuite::zone/search.phtml');
     }
 
     /**

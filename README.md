@@ -10,7 +10,7 @@ composer require elgentos/magento2-smile-debug-toolbar-elasticsuite
 ```
 Then, enable the module:
 ```bash
-bin/magento module:enable Elgentos_SmileDebugBarElasticsuite
+bin/magento module:enable Elgentos_SmileDebugToolbarElasticsuite
 ```
 And finally, run the upgrade command:
 ```bash

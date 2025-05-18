@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Elgentos_SmileDebugBarElasticsuite',
+    'Elgentos_SmileDebugToolbarElasticsuite',
     __DIR__ . '/src'
 );
